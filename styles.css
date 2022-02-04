@@ -131,7 +131,7 @@ header{
     width: 100%;
     background-color: rgb(0, 0, 255);
     color: white;
-    padding: 80px 80px 80px 80px;
+    padding: 80px 80px 2% 0px;
     text-align: center;
     font-size: large;
     
@@ -324,13 +324,17 @@ footer{
 
 /************************************************/
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:900px) {
     .burger-icon{
         display: block;
         padding-right: 10px;
         position: absolute;
         right: 10px;
         top: 10px;
+    }
+
+    header{
+        background-color: white;
     }
 
     .start{
@@ -352,4 +356,238 @@ footer{
     .a-container{
 
     }
+
+    .content-container-1 {
+        display: block;
+        text-align: center;
+        min-height: 1000px;
+    }
+
+    .content-container-1-left{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .content-container-1-left-images{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 200px;
+    }
+
+    .content-container-1-right{
+        display: block;
+    }
+
+    .content-container-1-right img{
+        padding: 0 20px 0 20px;
+        position: absolute;
+        right: 100px;
+        top: 500px;
+    }
+    
+    .content-container-1-right video{
+        position: absolute;
+        right: 130px;
+        top: 510px;
+        z-index: -1;
+        border-radius: 10%;
+    }
+
+    .content-container-3-right-2{
+        min-height: 900px;
+     
+    }
+
+    .content-container-3-left img{
+        position: absolute;
+        right: 100px;
+        top: 2200px;
+    }
+
+    .content-container-3-left video{
+        position: absolute;
+        right: 130px;
+        top: 2210px;
+        z-index: -1;
+        border-radius: 10%;
+    }
+
+    .content-container-3-left{
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .content-container-3-right{
+        margin: 0 auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+
+    .content-container-4{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .content-container-4 img{
+        display: block;
+        margin: auto;
+        align-self: center;
+    }
+
+    .content-container-6-stores{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content-container-6-stores img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+
+
+
+}
+
+
+
+/***************************************************/
+@media screen and (max-width:600px){
+    .burger-icon{
+        display: block;
+        padding-right: 10px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    header{
+        background-color: white;
+    }
+
+    .start{
+        min-width: 60%;
+    }
+
+    .container{
+        margin-top: 20px;
+        display: none;
+        width: 100%;
+    }
+
+    .a-container, .a-send-feedback{
+        display: block;
+        padding: 5px 0px 5px 0px;
+        margin-right: 0;
+    }
+
+    .a-container{
+
+    }
+
+    .content-container-1 {
+        display: block;
+        text-align: center;
+        min-height: 800px;
+    }
+
+    .content-container-1-left{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .content-container-1-left-images{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 200px;
+    }
+
+    .content-container-1-right{
+        display: block;
+    }
+
+    .content-container-1-right img{
+        padding: 0 20px 0 20px;
+        position: absolute;
+        right: 70px;
+        top: 600px;
+        height: 300px;
+    }
+    
+    .content-container-1-right video{
+        position: absolute;
+        right: 100px;
+        top: 610px;
+        z-index: -1;
+        height: 288px;
+        border-radius: 10%;
+    }
+
+    .content-container-3-right-2{
+        min-height: 600px;
+     
+    }
+
+    .content-container-3-left img{
+        position: absolute;
+        right: 70px;
+        top: 2400px;
+        height: 300px;
+    }
+
+    .content-container-3-left video{
+        position: absolute;
+        right: 100px;
+        top: 2410px;
+        z-index: -1;
+        height: 288px;
+        border-radius: 10%;
+    }
+
+    .content-container-3-left{
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .content-container-3-right{
+        margin: 0 auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+
+    .content-container-4{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .content-container-4 img{
+        display: block;
+        margin: auto;
+        align-self: center;
+    }
+
+    .content-container-6-stores{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content-container-6-stores img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+
 }
